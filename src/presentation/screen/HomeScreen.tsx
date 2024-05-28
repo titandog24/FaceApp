@@ -1,8 +1,8 @@
 import { Grid } from "@mui/material"
 import { Layout } from "../components/layout/Layout"
 import { Shortcuts } from "../components/shortcut/Shortcuts"
-import { Contact } from "../components/contacts/Contact"
 import { Sliders } from "../components/util/Sliders"
+import { HomeInfo } from "../components/util/HomeInfo"
 
 export const HomeScreen = () => {
     return (
@@ -14,7 +14,7 @@ export const HomeScreen = () => {
                 <Sliders /> 
             </Grid>
             <Grid item md={4} xs={12} style={{paddingLeft: 40, paddingTop: 20}}>
-                <Contact />
+                <HomeInfo />
             </Grid>
         </Layout>
     )

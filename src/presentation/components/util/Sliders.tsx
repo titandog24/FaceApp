@@ -57,7 +57,7 @@ export const Sliders = () => {
   const [width, _setWidth] = useState(600);
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,

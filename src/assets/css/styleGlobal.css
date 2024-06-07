@@ -1,0 +1,4 @@
+.divWithHover:hover {
+    border-radius: 5px;
+    background-color: rgba(84, 86, 88, 0.3);
+  }
